@@ -1,0 +1,33 @@
+export const tokens = {
+  color: {
+    bg: "#F8F9FB",
+    surface: "#FFFFFF",
+    surface2: "#F1F5F9",
+    text: "#0F172A",
+    text2: "#475569",
+    text3: "#64748B",
+    border: "#E2E8F0",
+    primary: "#2563EB",
+    onPrimary: "#FFFFFF",
+    successBg: "#DCFCE7",
+    successText: "#15803D",
+    successBorder: "#BBF7D0",
+    warnBg: "#FEF3C7",
+    warnText: "#92400E",
+    warnBorder: "#FDE68A",
+    dangerBg: "#FEE2E2",
+    dangerText: "#B91C1C",
+    dangerBorder: "#FECACA",
+    skeleton: "#E2E8F0",
+  },
+  space: { sm: 8, md: 12, lg: 16, xl: 20, xxl: 24 },
+  radius: { card: 8, input: 8, cta: 12, pill: 999, chip: 999 },
+  type: { title: 18, section: 16 },
+  shadow: {
+    card: "0 1px 2px rgba(15,23,42,0.06), 0 4px 12px rgba(15,23,42,0.06)",
+  },
+  motion: {
+    entering: 220,
+  },
+  hit: 44,
+};

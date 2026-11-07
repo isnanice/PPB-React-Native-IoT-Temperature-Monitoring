@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "LiveTemp",
+    "slug": "livetemp-slug",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.livetemp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "backendUrl": "http://10.213.64.161:5002",
+      "mqtt": {
+        "brokerUrl": "wss://broker.hivemq.com:8884/mqtt",
+        "topic": "ppb/kel22/iot/temperature"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
